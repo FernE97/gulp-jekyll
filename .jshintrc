@@ -1,0 +1,11 @@
+{
+  "strict": true,
+  "indent": 4,
+  "camelcase": true,
+  "browser": true,
+  "jquery": true,
+  "trailing": true,
+  "globals": {
+    "jQuery": true
+  }
+}
