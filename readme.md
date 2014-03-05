@@ -4,7 +4,7 @@
 - Ruby
 - Node.js
 
-### Uses gulp plugins for
+### Uses
 - [Sass](http://sass-lang.com/) with option for [Compass](http://compass-style.org/)
 - [Autoprefixer](https://github.com/ai/autoprefixer)
 - [BrowserSync](http://www.browsersync.io/)
@@ -12,8 +12,8 @@
 - [TinyPNG](https://tinypng.com/)
 - [image-min](https://www.npmjs.org/package/gulp-imagemin)
 - [WebP](https://developers.google.com/speed/webp/)
-
-*As well as a few others to minify and concatenate css and js*
+- [Normalize.css](https://github.com/necolas/normalize.css)
+- [Foundation 5 grids](http://foundation.zurb.com/docs/components/grid.html)
 
 ### Setup Instructions
 
@@ -43,6 +43,12 @@ npm update
 
 ```zsh
 mv custom-config-sample.js custom-config.js
+```
+
+**Run `jekyll build` to compile the site**
+
+```zsh
+jekyll build
 ```
 
 **Run `gulp` to start the default gulp tasks**

@@ -30,6 +30,8 @@ $RECYCLE.BIN/
 **/node_modules/**/*
 custom-config.js
 assets/css/**/*
+assets/js/build
+assets/img/build
 
 # Jekyll
 _site

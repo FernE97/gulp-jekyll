@@ -1,15 +1,10 @@
 // 01. 3rd Party
 // ----------------------------------------------
 
-// compass
-@import "compass/css3";
-
-// reset
 @import "vendor/normalize";
-
-// plugins
-// add additional plugin styles here
+@import "vendor/foundation_grid";
 @import "syntax"; // Jekyll
+
 
 // 02. Dependencies
 // ----------------------------------------------
@@ -27,7 +22,6 @@
 
 // 04. Layout
 // ----------------------------------------------
-@import "grid";
 @import "layout";
 
 
